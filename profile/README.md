@@ -2,16 +2,16 @@
 
 # Fastn
 
-**The embedded integration and workflow layer for SaaS products and AI agents.**
+**Say yes to the integrations you are losing customers over.**
 
 </div>
 
-Up to **30% of the customers you lose** leave over a one-off integration you don't
-support: a custom connector or bespoke workflow that's too expensive to build per
-account. Fastn is the **wildcard connector** that closes that gap. It augments your
-marketplace so your product can support **any** customer's connector or workflow,
-configured by the customer inside your product, with **no per-customer implementation or
-maintenance** for your team.
+Your product already covers the common integrations. Fastn covers the rest: the bespoke,
+one-off connectors and workflows that pre-built catalogs cannot handle and that cost you up
+to 30% of the customers you lose. It is the wildcard connector your customers configure
+themselves, inside your product, so "we do not support that yet" turns into "yes."
+
+Fastn is an embedded integration platform for SaaS products and AI agents.
 
 <div align="center">
 
@@ -25,13 +25,13 @@ maintenance** for your team.
 
 ## Business outcomes
 
-- **Win deals you're losing.** "Can you integrate with [their system]?" becomes "yes,
-  configured inside our product." Your market stops being capped by what your engineers had
-  time to build.
+- **Win the deals you lose to "we don't support that."** Every bespoke integration request
+  becomes a yes your customer configures, so your market stops being capped by your connector
+  catalog.
 - **Cut integration-driven churn.** Integrated customers churn ~58% less on average, and
   70-79% less in mid-market (Crossbeam, 2023).
-- **Go live in days, not weeks.** Customer-configured in days, versus weeks of engineering
-  per connector.
+- **Go live in days, not weeks.** Configured by the customer in days, versus weeks of
+  engineering per connector.
 - **Reclaim engineering capacity.** Connector build and maintenance time approaches zero.
 
 ## How Fastn compares
@@ -53,21 +53,22 @@ maintenance** for your team.
 Your customer authorizes their own Salesforce, NetSuite, or ServiceNow, including custom
 objects, custom tables, and bespoke logic, and describes what the data and workflows should
 do. Fastn configures authentication, data mapping, business logic, retries, idempotency,
-rate limits, and observability automatically.
+rate limits, and observability automatically. The customer configures the integration, not
+your engineering team.
 
 ## Built for CRM and ERP
 
 CRM and ERP are where integrations get hardest, and where pre-built catalogs and generated
 code break. Every customer's Salesforce or HubSpot has different custom objects and fields;
 every NetSuite has its own multi-entity GL and custom records; every ServiceNow has bespoke
-tables and event rules. Fastn supports the **70+ CRMs your product needs**, plus the ERPs
-and systems of record like NetSuite and ServiceNow, and handles that customization natively:
+tables and event rules. Fastn supports the 70+ CRMs your product needs, plus the ERPs and
+systems of record like NetSuite and ServiceNow, and handles that customization natively:
 your customer maps their own objects, fields, and logic, and the platform keeps it running
-as their setup changes, with no bespoke build per account.
+as their setup changes, without a one-off build per customer.
 
-Beyond CRM and ERP, Fastn connects across 1000+ tools, and products serving sales,
-marketing, customer success, and support teams benefit immediately, because their customers
-expect them to plug into whatever stack they already run.
+Beyond CRM and ERP, Fastn connects across 1000+ tools, and products serving sales, marketing,
+customer success, and support teams benefit immediately, because their customers expect them
+to plug into whatever stack they already run.
 
 ## Maintenance and operations, handled
 
@@ -90,19 +91,19 @@ For products with AI agents, Fastn exposes the same integrations as a governed M
 built multi-tenant from the ground up:
 
 - **One MCP endpoint, every customer isolated.** Pass a tenant identifier and each customer's
-  agents see only that customer's authorized tools, data, and systems, with no per-tenant
-  code and no separate deployments.
+  agents see only that customer's authorized tools, data, and systems, without writing
+  separate code per customer.
 - **Governed tool access.** Agents act inside customer systems within their permissions, with
   RBAC, audit trails, and data masking on every call.
 - **Built on the same connectors.** Agents reach each customer's Salesforce, NetSuite,
   ServiceNow, and custom systems through the integrations already configured in your product.
-- **One capability of the platform:** the agent surface on top of the embedded integration
-  layer, not a separate product.
+- **One capability of the platform:** the agent surface on top of the integration platform,
+  not a separate product.
 
 ## Who it's for
 
-SaaS products and AI agents that need to connect to their customers' systems of record, and
-whose connector backlog is capping their market or driving churn.
+SaaS products and AI agents that connect to their customers' systems of record, and whose
+bespoke integration requests are capping their market or driving churn.
 
 ## Open source
 
@@ -114,9 +115,9 @@ whose connector backlog is capping their market or driving churn.
 
 ## FAQ
 
-**What is Fastn?** The embedded integration and workflow layer for SaaS products and AI
-agents. Your customers configure their own integrations to their systems of record inside
-your product, with no per-account code.
+**What is Fastn?** An embedded integration platform for SaaS products and AI agents. It covers
+the bespoke, one-off integrations and workflows your pre-built catalog cannot, configured by
+the customer inside your product.
 
 **Who maintains the integrations?** Fastn does. A monitoring agent watches every production
 integration, and AI testing agents keep connectors working as upstream APIs change, with no
@@ -138,4 +139,4 @@ across the rest of your customers' stack.
 
 ---
 
-<div align="center"><sub>Fastn: the embedded integration and workflow layer for SaaS products and AI agents.</sub></div>
+<div align="center"><sub>Fastn: say yes to every integration your customers ask for.</sub></div>
