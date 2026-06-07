@@ -4,8 +4,8 @@
 
 ### Connect everything. Automate anything.
 
-**The embedded integration & workflow layer for SaaS — let your customers
-configure their own integrations, with no per-account code.**
+**The embedded integration & workflow layer for SaaS and AI agents — a multi-tenant
+unified context layer your customers configure themselves, with no per-account code.**
 
 [Website](https://fastn.ai) · [Docs](https://github.com/fastn-ai/docs) ·
 [MCP Server](https://github.com/fastn-ai/fastn-mcp) · [Python SDK](https://github.com/fastn-ai/fastn-sdk)
@@ -34,9 +34,11 @@ connectivity stops being something you build and starts being something you ship
 
 ## Fastn for AI agents
 
-Fastn's **MCP gateway** brings the same model to AI agents: governed, audited
-tool access inside your customers' systems, so agents can act safely across real
-systems of record.
+Fastn gives **AI agents** a **multi-tenant MCP gateway** — one multi-tenant
+architecture that lets your agents take **governed, audited** actions inside each
+customer's own systems of record. Build **dynamic AI agents** that execute real
+tasks across Salesforce, NetSuite, ServiceNow and hundreds of other tools, with
+per-tenant isolation, authentication, and observability handled for you.
 
 ## Explore our open source
 
@@ -44,14 +46,16 @@ systems of record.
 |---|---|
 | [fastn-mcp](https://github.com/fastn-ai/fastn-mcp) | Fastn MCP server — connect AI agents to Fastn tools |
 | [fastn-sdk](https://github.com/fastn-ai/fastn-sdk) | Python SDK for the Fastn platform |
-| [react-core-client](https://github.com/fastn-ai/react-core-client) | React core client for embedding Fastn |
-| [embedded-multitenant-ai-assistant](https://github.com/fastn-ai/embedded-multitenant-ai-assistant) | Example: a multi-tenant embedded AI assistant |
 | [docs](https://github.com/fastn-ai/docs) | Fastn product documentation |
 
 ## FAQ
 
-**What does Fastn do?** It lets SaaS products offer customer-configurable
+**What does Fastn do?** It lets SaaS products and AI agents offer customer-configurable
 integrations and workflows without building a connector per customer.
+
+**Is Fastn multi-tenant?** Yes — Fastn runs on a multi-tenant architecture, so each
+of your customers gets isolated integrations and an isolated MCP context, with no
+per-tenant code.
 
 **Who is Fastn for?** SaaS companies and AI agents whose products must connect to
 their customers' systems of record.
